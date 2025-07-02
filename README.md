@@ -14,12 +14,13 @@ TOKEN_SECRETO=tu_token_secreto_aqui
 - Consultar clima:
 
 !clima
-$(urlfetch https://TU-PROYECTO.vercel.app/api/clima?channel=$(channel)&query=$(querystring))
+$(urlfetch https://clima-api-completo.vercel.app/api/clima?channel=$(channel)&query=$(querystring))
+
 
 - Agregar ciudad (solo mods):
 
 !addclima
-$(urlfetch https://TU-PROYECTO.vercel.app/api/addclima?persona=$(1)&ciudad=$(2)&token=TU_TOKEN_SECRETO)
+$(urlfetch https://clima-api-completo.vercel.app/api/addclima?persona=$(1)&ciudad=$(2)&token=andy2005)
 
 ## Notas
 
