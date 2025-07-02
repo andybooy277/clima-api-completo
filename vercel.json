@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/clima.js", "use": "@vercel/node" },
+    { "src": "api/addclima.js", "use": "@vercel/node" }
+  ]
+}
